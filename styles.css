@@ -19,6 +19,15 @@
     background-color: bisque;
 }
 
-p {
-    grid-column: 1 / 3 ;
+.nav {
+    display: grid;
+    list-style: none;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: repeat(10,minmax(20px, 7%));
+    height: 100vh;
+    padding: 0px;
+}
+
+.dashboard {
+    font-size: 32px;
 }
