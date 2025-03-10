@@ -23,11 +23,29 @@
     display: grid;
     list-style: none;
     grid-template-columns: 1fr 4fr;
-    grid-template-rows: repeat(10,minmax(20px, 7%));
+    grid-template-rows: 100px repeat(9,minmax(30px, 7%));
     height: 100vh;
-    padding: 0px;
+    padding: 10px 0px 0px 0px;
+}
+
+.nav a {
+    padding-left: 20px;
+    font-size: 24px;
+    text-decoration: none;
+    color: black;
 }
 
 .dashboard {
     font-size: 32px;
+    padding-left: 20px;
+}
+
+.dashboardIcon {
+    justify-self: end;
+    font-size: 32px;
+} 
+
+.linkIcon {
+    justify-self: end;
+    font-size: 24px;
 }
