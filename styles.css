@@ -64,6 +64,14 @@
 #search {
     border-radius: 12px;
     width: 80%;
+    padding-left: 20px;
+    font-size: 24px;
+}
+
+#search i {
+    margin-right: 10px;
+    font-size: 24px;
+    color: black;
 }
 
 #profile {
