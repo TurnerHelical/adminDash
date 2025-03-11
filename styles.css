@@ -12,7 +12,8 @@ body {
 
 .header {
     grid-column: 2 / 3;
-    background-color: gray;
+    background-color: white;
+    padding: 10px;
 }
 
 .sidebar {
@@ -59,6 +60,8 @@ body {
 .header {
     display: grid;
     grid-template: 1fr 2fr / 1fr;
+    box-shadow: 0px 3px 3px rgba(0, 0, 0, 0.2) ;
+    z-index: 2;
 }
 
 #searchAndProfile {
@@ -83,6 +86,10 @@ body {
     color: black;
 }
 
+#search input {
+    background-color: #E2E8F0;
+}
+
 
 #profile {
     display: grid;
@@ -97,18 +104,18 @@ body {
     display: grid;
     grid-template: 1fr / 2fr 1fr;
     align-items: center;
+    
 }
 
 #greeting {
     display: grid;
-    grid-template: 1fr / 60px 1fr;
+    grid-template: 1fr / .5fr 3fr;
     align-items: center;
-    margin-left: 40px;
 }
 
 #greeting i {
-    font-size: 60px;
-    
+    font-size: 4em;
+    justify-self: end;
 }
 
 #greeting p {
@@ -142,34 +149,44 @@ body {
     display: grid;
     grid-template: 1fr / 3fr 1fr;
     padding: 20px;
+    background-color: #E2E8F0;
 }
 
 #projects {
     display: grid;
     grid-template: 30px 1fr /1fr;
-
+    margin-right: 20px;
 }
 
 .projectContainer {
     display: grid;
     grid-template: 1fr 1fr 1fr / 1fr 1fr;
     padding: 0px 0px 0px 0px;
+    gap: 20px;
 }
 
 .projectCard {
     display: grid;
-    grid-template: 1fr 30px / 1fr;
+    grid-template: 1fr 32px / 1fr;
     background-color: antiquewhite;
     padding: 20px;
-    
+    border-left: 5px solid gold;
+    border-radius: 5%;
 }
 
-.projectContent {
+.icons {
+    justify-self: end;
+}
+
+.projectCard i {
+    font-size: 30px;
+    justify-self: end;
 }
 
 #info {
     display: grid;
     grid-template: 1fr 1fr / 1fr;
+    gap: 30px;
 }
 
 #announcements {
@@ -183,6 +200,7 @@ body {
     display: grid;
     grid-template: 1fr 1fr 1fr / 1fr;
     background-color: gray;
+    border-radius: 5%;
     
 }
 
@@ -190,9 +208,6 @@ body {
     padding: 15px 30px;
 }
 
-.announcementContent h4 {
-
-}
 
 .announcementContent p {
     font-size: .7em;
@@ -208,6 +223,7 @@ body {
     grid-template: 1fr 1fr 1fr 1fr / 1fr;
     padding: 15px 30px;
     background-color: blue;
+    border-radius: 5%;
 }
 
 .trendingUser {
