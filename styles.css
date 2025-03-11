@@ -65,7 +65,8 @@
     border-radius: 12px;
     width: 80%;
     padding-left: 20px;
-    font-size: 24px;
+    font-size: 20px;
+    border: 0px;
 }
 
 #search i {
@@ -82,4 +83,28 @@
     height: 100%;
     font-size: 24px;
 }
+
+#greetingAndButtons {
+    display: grid;
+    grid-template: 1fr / 2fr 1fr;
+    align-items: center;
+}
+
+#headerButtons ul {
+    list-style-type: none;
+    display: grid;
+    grid-template: 1fr / 1fr 1fr 1fr;
+    padding: 0px;
+    gap: 15px;
+    margin-right: 40px;
+}
+
+.buttonContainer button{
+    width: 100%;
+    border-radius: 25%;
+    border: 0px;
+    padding:  5px 0px;
+}
+
+
 
