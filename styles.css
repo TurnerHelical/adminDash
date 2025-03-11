@@ -112,6 +112,7 @@
 
 #greeting span {
     font-size: 24px;
+    font-weight: bold;
 }
 
 #headerButtons ul {
@@ -129,6 +130,21 @@
     border: 0px;
     padding:  5px 0px;
     font-size: 20px;
+}
+
+.content {
+    display: grid;
+    grid-template: 1fr / 2fr 1fr;
+}
+
+#projects {
+    display: grid;
+    grid-template: 60px 1fr /1fr;
+}
+
+.projectContainer {
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr;
 }
 
 
