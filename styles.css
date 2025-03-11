@@ -49,3 +49,26 @@
     justify-self: end;
     font-size: 24px;
 }
+
+.header {
+    display: grid;
+    grid-template: 1fr 2fr / 1fr;
+}
+
+#searchAndProfile {
+    display: grid;
+    grid-template: 1fr / 2fr 1fr;
+    align-items: center;
+}
+
+#search {
+    justify-self: s;
+}
+
+#profile {
+    display: grid;
+    grid-template: 1fr / 1fr 1fr 2fr;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
