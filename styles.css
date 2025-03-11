@@ -69,11 +69,6 @@
     border: 0px;
     display: grid;
     grid-template: 1fr /40px 1fr;
-    justify-content: center;
-}
-
-#search label {
-
 }
 
 #search i {
@@ -96,6 +91,27 @@
     display: grid;
     grid-template: 1fr / 2fr 1fr;
     align-items: center;
+}
+
+#greeting {
+    display: grid;
+    grid-template: 1fr / 60px 1fr;
+    align-items: center;
+    margin-left: 40px;
+}
+
+#greeting i {
+    font-size: 60px;
+    
+}
+
+#greeting p {
+    padding-left: 25px;
+    font-size: 15px;
+}
+
+#greeting span {
+    font-size: 24px;
 }
 
 #headerButtons ul {
